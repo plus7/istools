@@ -1,5 +1,6 @@
-#!/usr/bin/perl -w
-
+﻿#!/usr/bin/perl -w
+#-- -*- encoding: utf-8 -*- --
+# 原著作者不明
 open( OUT, "| wc -w" );
 while ( $#ARGV >= 0 ) {
     my $file = shift @ARGV;
