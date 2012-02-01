@@ -1,0 +1,13 @@
+floathex: 単精度の浮動小数点数をビット表現にしたり戻したり
+Public domain
+
+コンパイル方法 make -f floathex.mk
+
+つかいかた
+% ./floathex 1.33
+1.33 -> 3FAA3D71
+
+% ./floathex 3FF80000
+3FF80000 -> 1.9375
+
+おわり
