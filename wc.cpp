@@ -1,3 +1,9 @@
+/*
+ * flag=0の間はカウントをしないので適宜追加、変更してください
+ * 特にbegin{figure}[]の位置指定は注意。
+ * -v を付けて実行することで何がカウントされているか出力されます。
+ */
+
 #include <iostream>
 #include <string>
 #include <sstream>
